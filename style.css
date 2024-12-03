@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./images/background-1.png");
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 24px;
+    margin-top: 200px;
+    margin-inline: auto;
+}
+
+H1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    color: #036147;
+    font-size: 48px;
+}
+
+input {
+    margin-top: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button {
+    background-color: #FF6D24;
+    color: #fff;
+    font-family: "Roboto",sans-serif serif;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 8px 14px;
+    margin-left: 26px;
+}
+
+button:hover {
+    background: #ea8553;
+    color: #fff;
+}
+
+ul {
+    margin: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #036147;
+    margin-top: 48px;
+    text-decoration: none;
+}
+
+ul.completed {
+    text-decoration: line-through;
+    color: #D0CF3F;
+}
