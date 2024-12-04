@@ -25,6 +25,7 @@ H1 {
 
 input {
     margin-top: 24px;
+    margin-bottom: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -47,15 +48,19 @@ button:hover {
 }
 
 ul {
-    margin: none;
+    list-style: none;
+}
+
+li {
+    margin: 8px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #003A34;
-    margin-top: 48px;
     text-decoration: none;
+    cursor: pointer;
 }
 
-ul.completed {
+li.completed {
     text-decoration: line-through;
     color: #D0CF3F;
 }

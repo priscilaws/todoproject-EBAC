@@ -4,7 +4,7 @@ $(document).ready(function() {
 
         const yourTask = $('#your-task').val();
         if (yourTask.trim() !== '') {
-            const addTask = $(`<ul>${yourTask}</ul>`)
+            const addTask = $(`<li>${yourTask}</li>`)
             $('#task-list').append(addTask);
 
             $('#your-task').val('');
@@ -13,7 +13,7 @@ $(document).ready(function() {
         }
 });
 
-    $('#task-list').on('click', 'ul', function () {
+    $('#task-list').on('click', 'li', function () {
         $(this).toggleClass('completed');
     });
 });
